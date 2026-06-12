@@ -1,0 +1,51 @@
+# Iris Flower Classification 🌸
+
+A machine learning project that classifies Iris flower species (*Setosa*, *Versicolor*, *Virginica*) based on physical measurements of their sepals and petals using Python and Scikit-learn.
+
+## 📊 About the Dataset
+The project uses a local `Iris.csv` dataset containing 150 samples with 4 key features:
+* Sepal Length (cm)
+* Sepal Width (cm)
+* Petal Length (cm)
+* Petal Width (cm)
+
+## 🚀 How It Works
+1. **Data Loading:** Uses `pandas` to read the local CSV file.
+2. **Model Training:** Splits data into 80% training / 20% testing sets and trains a **Logistic Regression** model using `scikit-learn`.
+3. **Evaluation:** Evaluates the model performance, achieving **100% accuracy** on the test data!
+
+## ⚙️ Technologies Used
+* Python 3
+* Pandas
+* Scikit-learn
+
+---
+
+## 💻 How to Open and Run This Project Locally
+
+Follow these step-by-step procedures to run this machine learning model on your own machine:
+
+### 1. Prerequisites
+Make sure you have Python installed on your computer. You will also need to install the required libraries. Open your terminal and run:
+```bash
+pip install pandas scikit-learn
+
+
+### 2. Download the Project Files
+### Download the code file iris_flower_prediction.py and the dataset Iris.csv from this repository into the same folder on your computer.
+
+### 3. Open the Project in VS Code
+### Open Visual Studio Code.
+
+### Go to the top menu and select File ➔ Open Folder...
+
+### Choose the folder where you saved iris_flower_prediction.py and Iris.csv.
+
+### 4. Run the Machine Learning Model
+### Open the iris_flower_prediction.py file inside the VS Code editor panel.
+
+### Open a built-in terminal by clicking Terminal ➔ New Terminal from the top menu bar.
+
+### Click the Play Button (Run Python File) in the top right corner of the window, or type this command inside the terminal and press Enter:
+
+
